@@ -14,7 +14,7 @@
         {% endblock %}
     </head>
     <body>
-        <h1>Je fais du Symfony</h1>
+        {# <h1>Je fais du Symfony</h1>
         {% set michel = 42 %}
         {{ michel }}
 
@@ -27,8 +27,8 @@
 
         {{'element chimique ' | title }}
         {{max(1,5,22)}}
-        {{min(1,5,22)}}
-
+        {{min(1,5,22)}} #}
+{# 
         {% if users %}
         <ul>
             {% for user in users %}
@@ -36,6 +36,6 @@
             {% endfor %}
         </ul>
         {% endif %}
-        {% block body %}{% endblock %}
+        {% block body %}{% endblock %} #}
     </body>
 </html>
